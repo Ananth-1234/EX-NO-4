@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <div class="video-container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="wheather.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <center>
+        <div class="weather-app">
+            <h1>Current Weather</h1>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="hi">Hindi</option> <!-- Added Hindi option -->
+                <!-- Add more languages as needed -->
+            </select>
+            <button id="getWeatherBtn">Get Weather</button>
+            <div id="weatherResult"></div>
+            <div id="weatherOverview"></div>
+        </div>
+        <script src="script.js"></script>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
